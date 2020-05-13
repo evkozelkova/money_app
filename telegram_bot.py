@@ -144,7 +144,6 @@ def stop(update, context):
 
 def main():
     # Создаём объект updater.
-    # Вместо слова "TOKEN" надо разместить полученный от @BotFather токен
     updater = Updater("1261886794:AAEeegI5h4BIF942wzXGenafagfp8oNkGiw", use_context=True)
 
     # Получаем из него диспетчер сообщений.
